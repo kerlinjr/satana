@@ -4,8 +4,6 @@
 # - opencv-python-headless
 # - matplotlib
 
-
-Copy code
 import cv2
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
@@ -50,7 +48,7 @@ def update_angle(val):
         fig.canvas.draw()
 
 # Load an image using OpenCV
-image_path = 'your_image.jpg'
+image_path = '/Users/jkerlin/PycharmProjects/satana/data/images/cars_whole_foods/Whole Foods, 20th Ave  Suite 340.png'
 image = cv2.imread(image_path)
 image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
